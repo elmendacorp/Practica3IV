@@ -1,0 +1,63 @@
+
+Number of processors / threads:  2 / 2
+
+*** Start Java Micro Benchmark ***
+Thread (0) Int arithmetic operations per second: 244.29595005972357 E6
+Thread (0) Long arithmetic operations per second: 246.76627968974432 E6
+Thread (0) Double arithmetic operations per second: 392.7006581329432 E6
+Thread (0) Trig arithmetic operations per second: 1.8829316966242875 E6
+Thread (1) Int arithmetic operations per second: 245.60914382112426 E6
+Thread (1) Long arithmetic operations per second: 246.53964169680273 E6
+Thread (1) Double arithmetic operations per second: 398.419953432282 E6
+Thread (1) Trig arithmetic operations per second: 1.9331025294806012 E6
+
+
+Time: 114125.0 ms
+Arithmetic operations per second: 444.53691526468117 E6
+*** End Java Micro Benchmark ***
+
+
+
+Number of processors / threads:  2 / 2
+
+*** Start Java Micro Benchmark HDD ***
+Thread (0) Created, deleted files per second: 382.3214416503906
+Thread (0) Write Mega Bytes per second: 169.8369598388672
+Thread (0) Read Mega Bytes per second: 395.6898498535156
+Thread (1) Created, deleted files per second: 380.952392578125
+Thread (1) Write Mega Bytes per second: 168.9554443359375
+Thread (1) Read Mega Bytes per second: 446.3265686035156
+
+Time, ms: 60499.0 ms
+HDD: Index of overall performance: 64.80275522867838
+*** End Java Micro Benchmark HDD ***
+
+
+Total Desktop index: 254.66983524667978
+
+
+
+Number of processors / threads:  2 / 2
+
+*** Start Java Micro Benchmark Server ***
+Thread (0) Int arithmetic operations per second: 103.42652635425374 E6
+Thread (0) Long arithmetic operations per second: 59.396555364526165 E6
+Thread (0) Double arithmetic operations per second: 102.91998480156857 E6
+Thread (0) Trig arithmetic operations per second: 0.34334417266552564 E6
+Thread (0) Created, deleted files per second: 287.83821432267655
+Thread (0) Write Mega Bytes per second: 8.136402929912038
+Thread (0) Read Mega Bytes per second: 77.29874681292857
+Thread (1) Int arithmetic operations per second: 105.10850487468724 E6
+Thread (1) Long arithmetic operations per second: 55.838685843308895 E6
+Thread (1) Double arithmetic operations per second: 104.97032636791403 E6
+Thread (1) Trig arithmetic operations per second: 0.32775305878059213 E6
+Thread (1) Created, deleted files per second: 285.18400395075025
+Thread (1) Write Mega Bytes per second: 33.7319643265281
+Thread (1) Read Mega Bytes per second: 68.37501450397394
+
+Time: 614685 ms
+Server: Index of overall performance: 608.3881155223817
+*** End Java Micro Benchmark Server ***
+
+
+Total server index: 608.3881155223817
