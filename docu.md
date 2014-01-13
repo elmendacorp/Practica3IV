@@ -21,9 +21,13 @@ Como punto de partida, ya que hemos configurado el puerto en el que funciona, el
 ![juego](https://github.com/elmendacorp/Practica3IV/raw/master/imagenes/juego.PNG)
 ### Pruebas de ambas máquinas
 Ultilizo para ello un benchmark de java, que me permite mantener en ejecución un programa usando todos los recursos durante cierto tiempo, obteniendo así un resumen de como se comportaria una aplicación al maximo dentro de mi sistema.
+Benchmark utilizado:
 [testjmv](http://sourceforge.net/projects/opt/)
-[test2](https://github.com/elmendacorp/Practica3IV/blob/master/test2.txt)
+Test máquina con un nucleo:
 [test1](https://github.com/elmendacorp/Practica3IV/blob/master/test1)
+Test máquina con 2 nucleos:
+[test2](https://github.com/elmendacorp/Practica3IV/blob/master/test2.txt)
+
 La configuración de dos núcleos nos da un rendimiento de 444.53691526468117 E6 operaciones aritméticas por segundo, mientras que la de uno 231.03281973069193 E6, con lo que la configuración de dos nucleos nos asegura más fluidez, a la vez que más usuarios en el sistema.
 Porque nos basamos en este calculo, minecraft no realiza por parte del servidor ningun tratado de imagenes, sino que solo se limita a operaciones matemáticas para provabilidades de encontrar objetos o calculo de explosiones, pero principalmente para la generacion del terreno o como ellos lo llaman chunks
 ### Conclusión
