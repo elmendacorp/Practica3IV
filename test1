@@ -1,0 +1,49 @@
+
+Number of processors / threads:  1 / 1
+
+*** Start Java Micro Benchmark ***
+Thread (0) Int arithmetic operations per second: 250.36240734479742 E6
+Thread (0) Long arithmetic operations per second: 154.61201259944562 E6
+Thread (0) Double arithmetic operations per second: 517.6530189225022 E6
+Thread (0) Trig arithmetic operations per second: 1.503840056022409 E6
+
+
+Time: 67511.0 ms
+Arithmetic operations per second: 231.03281973069193 E6
+*** End Java Micro Benchmark ***
+
+
+
+Number of processors / threads:  1 / 1
+
+*** Start Java Micro Benchmark HDD ***
+Thread (0) Created, deleted files per second: 546.1198120117188
+Thread (0) Write Mega Bytes per second: 131.29368591308594
+Thread (0) Read Mega Bytes per second: 367.6816711425781
+
+Time, ms: 23358.0 ms
+HDD: Index of overall performance: 34.83650563557943
+*** End Java Micro Benchmark HDD ***
+
+
+Total Desktop index: 132.93466268313568
+
+
+
+Number of processors / threads:  1 / 1
+
+*** Start Java Micro Benchmark Server ***
+Thread (0) Int arithmetic operations per second: 44.70522758235503 E6
+Thread (0) Long arithmetic operations per second: 35.38864630708869 E6
+Thread (0) Double arithmetic operations per second: 96.71662129431292 E6
+Thread (0) Trig arithmetic operations per second: 0.32075238356361635 E6
+Thread (0) Created, deleted files per second: 162.3472163659144
+Thread (0) Write Mega Bytes per second: 38.479851152291644
+Thread (0) Read Mega Bytes per second: 74.8174876543093
+
+Time: 615184 ms
+Server: Index of overall performance: 204.6957030845718
+*** End Java Micro Benchmark Server ***
+
+
+Total server index: 204.6957030845718
