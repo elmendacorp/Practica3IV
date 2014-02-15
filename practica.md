@@ -13,3 +13,14 @@ Las configuraciones iniciales seran ambas maquinas con 512 Mb de ram y 1 core, e
 Los discos virtuales esta en formato raw, hechos antes de preparar el sistema con qemu. Ambas maquinas se han instalado por red, haciendo uso del adaptador que tiene qemu en el sistema.
 
 Sin mayor problemas los sistemas se han instalado, se pueden alterar las caracteristicas desde el gestor de maquinas virtuales.
+
+![](https://raw.github.com/elmendacorp/Practica3IV/master/imagenes/instalandomaquinas.png)
+
+![](https://raw.github.com/elmendacorp/Practica3IV/master/imagenes/maquinadebian.png)
+
+![](https://raw.github.com/elmendacorp/Practica3IV/master/imagenes/maquina%20ubuntu.png)
+
+Tras instalar las dos maquinas procedi a instalar apache2 en ambas, y comprobe que ambas maquinas eran accesibles con ping desde la maquina anfitriona que era la que iba a hacer los test.
+ En la maquina anfitriona instale apache benchmark, para que las pruebas fueran significativas hice 100000 peticiones con 50 usuarios, La prueba era en local y tenia que tener resultados significativos.
+ 
+ ![](https://raw.github.com/elmendacorp/Practica3IV/master/imagenes/comparativa.png)
